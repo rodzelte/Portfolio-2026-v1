@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Rodzel John Te — Designer & Developer',
   description: 'Portfolio of Rodzel John Te, a WordPress, Shopify, and Wix designer and developer.',
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'Rodzel John Te — Designer & Developer',
     description: 'WordPress, Shopify, and Wix websites designed and developed with clarity, personality, and purpose.',
