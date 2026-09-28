@@ -18,10 +18,34 @@ import {
 
 const projects = [
   {
+    title: 'Ardio Studio',
+    category: 'Digital agency landing page',
+    description: 'A bright, editorial agency experience with a clear story, confident typography, and a generous project showcase.',
+    image: '/projects/landingpages/01-ardio-studio.png', width: 1990, height: 3720, tone: 'peach', size: 'wide',
+  },
+  {
+    title: '4Generations Private Care',
+    category: 'Healthcare service website',
+    description: 'A trust-first care website that makes services, proof, and next steps easy to understand for families.',
+    image: '/projects/landingpages/02-4generations.png', width: 1920, height: 3359, tone: 'coral', size: 'wide',
+  },
+  {
     title: 'CoinFusion',
-    category: 'Web3 product experience',
-    description: 'A bold product story that makes a technical Bitcoin ecosystem feel direct, credible, and easy to explore.',
-    image: '/projects/coinfusion.jpg', width: 1920, height: 7194, tone: 'violet', size: 'wide',
+    category: 'Crypto trading platform',
+    description: 'A dark, product-led landing page that turns a complex crypto platform into a focused path from curiosity to action.',
+    image: '/projects/landingpages/03-coinfusion.png', width: 1440, height: 8794, tone: 'violet', size: 'wide',
+  },
+  {
+    title: 'Fox on John',
+    category: 'Restaurant & events landing page',
+    description: 'A high-energy hospitality page built around atmosphere, social proof, memorable moments, and event enquiries.',
+    image: '/projects/landingpages/04-fox-on-john.png', width: 1920, height: 4466, tone: 'blue', size: 'wide',
+  },
+  {
+    title: 'Fox on John — dark campaign',
+    category: 'Restaurant campaign concept',
+    description: 'A darker campaign variation that keeps the brand feeling premium while letting the venue imagery lead.',
+    image: '/projects/landingpages/05-fox-on-john-dark.png', width: 1920, height: 4466, tone: 'lime', size: 'standard',
   },
   {
     title: 'VerbalizeIt',
@@ -40,12 +64,6 @@ const projects = [
     category: 'Strategy studio website',
     description: 'A people-first studio experience with expressive typography, generous space, and an editorial rhythm.',
     image: '/projects/elementum.jpg', width: 1920, height: 6665, tone: 'mint', size: 'wide',
-  },
-  {
-    title: 'Ardio Revenue',
-    category: 'Digital agency landing page',
-    description: 'A conversion-minded agency presence that balances quiet confidence with energetic visual details.',
-    image: '/projects/ardio-studio.png', width: 1990, height: 3720, tone: 'peach', size: 'standard',
   },
   {
     title: 'Teamollo',
@@ -96,7 +114,6 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
         ref={dialogRef}
         className="project-dialog"
         aria-labelledby={`project-title-${index}`}
-        onClick={(event) => { if (event.target === event.currentTarget) dialogRef.current?.close(); }}
       >
         <div className="dialog-inner">
           <button className="dialog-close" type="button" aria-label="Close project" onClick={() => dialogRef.current?.close()}><X size={20} /></button>
@@ -204,7 +221,10 @@ export default function Home() {
         <span className="contact-kicker">Have a project in mind?</span>
         <h2>Let&apos;s make something<br /><em>worth scrolling for.</em></h2>
         <p>Open to freelance projects, thoughtful redesigns, and collaborations. Reach out through the platform where you found this portfolio.</p>
-        <a className="contact-link" href="#work">Explore the work <ArrowRight size={20} /></a>
+        <div className="contact-actions">
+          <a className="contact-link" href="#work">Explore the work <ArrowRight size={20} /></a>
+          <a className="contact-link contact-link-secondary" href="https://github.com/rodzelte" target="_blank" rel="noreferrer">View GitHub <ArrowUpRight size={20} /></a>
+        </div>
       </section>
 
       <footer>
