@@ -13,21 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Rodzel John Te — Designer & Developer',
-  description: 'Portfolio of Rodzel John Te, a WordPress, Shopify, and Wix designer and developer.',
+  title: 'Rodzel John Te — Virtual Assistant & Developer',
+  description: 'Portfolio of Rodzel John Te, a Virtual Assistant and full-stack developer specializing in GoHighLevel automation and WordPress.',
   icons: {
     icon: '/favicon.svg',
   },
   openGraph: {
-    title: 'Rodzel John Te — Designer & Developer',
-    description: 'WordPress, Shopify, and Wix websites designed and developed with clarity, personality, and purpose.',
+    title: 'Rodzel John Te — Virtual Assistant & Developer',
+    description: 'GoHighLevel automations, WordPress websites, and full-stack web apps, with real proof of work.',
     type: 'website',
     images: [{ url: '/og.png', width: 1729, height: 910, alt: 'Rodzel John Te — Designer & Developer' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rodzel John Te — Designer & Developer',
-    description: 'WordPress, Shopify, and Wix websites designed and developed with clarity, personality, and purpose.',
+    title: 'Rodzel John Te — Virtual Assistant & Developer',
+    description: 'GoHighLevel automations, WordPress websites, and full-stack web apps, with real proof of work.',
     images: ['/og.png'],
   },
 };

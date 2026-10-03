@@ -356,14 +356,14 @@ export default function Home() {
       <section className="about-section" id="about">
         <div className="about-label">04 / About</div>
         <div className="about-main">
-          <p className="about-lead">One year in, still curious about every pixel.</p>
-          <p className="about-copy">I&apos;m Rodzel John Te, a website designer and developer focused on turning ideas into clear, memorable digital experiences. I work across platforms and care equally about how a site looks, feels, and performs.</p>
-          <div className="experience-stat"><strong>1</strong><span>year of hands-on<br />design experience</span></div>
+          <p className="about-lead">Less busywork. More systems that run themselves.</p>
+          <p className="about-copy">I&apos;m Rodzel John Te, a Virtual Assistant and full-stack developer from Davao City and a 3rd-year BSIT student at the University of Mindanao. I build GoHighLevel workflows, pipelines, and invoicing automations for a talent agency, manage WordPress sites on Hostinger, and ship custom apps like Discord bots and React dashboards. I also mentor 40 students in Java through the CCE Skills Clinic.</p>
+          <div className="experience-stat"><strong>40+</strong><span>projects shipped<br />on GitHub</span></div>
         </div>
         <div className="skills-block">
           <div className="skills-heading"><Sparkles size={18} /><span>Toolkit & capabilities</span></div>
           <div className="skills-list">
-            {['Lovable', 'VS Code', 'JavaScript', 'HTML', 'CSS', 'Figma', 'ChatGPT', 'Claude'].map((skill, index) => (
+            {['GoHighLevel', 'WordPress', 'Hostinger', 'TypeScript', 'React', 'Node.js', 'Laravel', 'Java', 'Supabase', 'Discord.js', 'Figma', 'Claude'].map((skill, index) => (
               <span key={skill} style={{ '--i': index } as CSSProperties}>{skill}</span>
             ))}
           </div>
@@ -393,7 +393,7 @@ export default function Home() {
 
       <footer>
         <a className="brand footer-brand" href="#top"><span className="brand-mark">RJT</span><span>Rodzel John Te</span></a>
-        <span>WordPress · Shopify · Wix</span><span>Designer + Developer</span><span>© {new Date().getFullYear()}</span>
+        <span>GoHighLevel · WordPress · Full-stack</span><span>Virtual Assistant + Developer</span><span>© {new Date().getFullYear()}</span>
       </footer>
     </main>
   );
