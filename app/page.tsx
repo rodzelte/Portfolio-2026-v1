@@ -9,10 +9,9 @@ import {
   ArrowUpRight,
   Code2,
   LayoutTemplate,
-  MonitorSmartphone,
   ScanLine,
-  ShoppingBag,
   Sparkles,
+  Workflow,
   X,
 } from 'lucide-react';
 
@@ -277,9 +276,9 @@ function ProofCard({ proof, index }: { proof: Proof; index: number }) {
 }
 
 const services = [
-  { icon: LayoutTemplate, number: '01', title: 'WordPress', text: 'Flexible, easy-to-manage websites shaped around your brand and business goals.' },
-  { icon: ShoppingBag, number: '02', title: 'Shopify', text: 'Clear, conversion-aware storefronts that make browsing and buying feel effortless.' },
-  { icon: MonitorSmartphone, number: '03', title: 'Wix', text: 'Polished, responsive Wix experiences built for speed, clarity, and easy ownership.' },
+  { icon: Workflow, number: '01', title: 'GoHighLevel', text: 'Workflows, pipelines, appointment booking, invoicing, and Email/SMS follow-ups that run without manual chasing.' },
+  { icon: LayoutTemplate, number: '02', title: 'WordPress', text: 'Websites built, migrated, and maintained on Hostinger, plus CMS deployments with Agency OS and Codex.' },
+  { icon: Code2, number: '03', title: 'Full-stack', text: 'Custom web apps, dashboards, and Discord bots with React, Node.js, TypeScript, Laravel, and Supabase.' },
 ];
 
 export default function Home() {
@@ -341,8 +340,8 @@ export default function Home() {
       <section className="services-section" id="services">
         <div className="services-top">
           <span>03 / What I do</span>
-          <h2>From the first frame<br />to the final click.</h2>
-          <p>I combine visual design and front-end thinking to create sites that look intentional, work smoothly, and stay easy to manage.</p>
+          <h2>From the first lead<br />to the final invoice.</h2>
+          <p>I combine virtual assistance, automation, and development to take repetitive work off your plate and build systems that stay easy to manage.</p>
         </div>
         <div className="service-grid">
           {services.map(({ icon: Icon, number, title, text }) => (
@@ -373,20 +372,21 @@ export default function Home() {
       <section className="process-section">
         <div className="section-heading process-heading"><span>05 / Approach</span><h2>Clear thinking.<br />Clean execution.</h2></div>
         <div className="process-list">
-          <div><span>01</span><strong>Understand</strong><p>Clarify the audience, goals, and the one action the website needs to make easy.</p></div>
-          <div><span>02</span><strong>Shape</strong><p>Build a visual direction and structure that gives every section a reason to exist.</p></div>
-          <div><span>03</span><strong>Build</strong><p>Turn the design into a responsive, polished experience across screen sizes.</p></div>
-          <div><span>04</span><strong>Refine</strong><p>Check the details, strengthen the flow, and prepare the site for a confident launch.</p></div>
+          <div><span>01</span><strong>Understand</strong><p>Map the business, the audience, and the manual tasks slowing the team down.</p></div>
+          <div><span>02</span><strong>Shape</strong><p>Plan the site structure, pipeline stages, and workflow logic before building anything.</p></div>
+          <div><span>03</span><strong>Build</strong><p>Build the website, automation, or app, and test it across devices and edge cases.</p></div>
+          <div><span>04</span><strong>Refine</strong><p>Track the results, fix weak spots, and document everything so it is easy to own.</p></div>
         </div>
       </section>
 
       <section className="contact-section" id="contact">
         <div className="contact-orbit" aria-hidden="true"><Code2 size={42} /></div>
-        <span className="contact-kicker">Have a project in mind?</span>
-        <h2>Let&apos;s make something<br /><em>worth scrolling for.</em></h2>
-        <p>Open to freelance projects, thoughtful redesigns, and collaborations. Reach out through the platform where you found this portfolio.</p>
+        <span className="contact-kicker">Hiring a VA or developer?</span>
+        <h2>Let&apos;s build something<br /><em>that runs itself.</em></h2>
+        <p>Open to Virtual Assistant, GoHighLevel automation, WordPress, and full-stack roles. Reach out through the platform where you found this portfolio, or connect on LinkedIn.</p>
         <div className="contact-actions">
           <a className="contact-link" href="#work">Explore the work <ArrowRight size={20} /></a>
+          <a className="contact-link contact-link-secondary" href="https://www.linkedin.com/in/rodzel-te-188573285" target="_blank" rel="noreferrer">LinkedIn <ArrowUpRight size={20} /></a>
           <a className="contact-link contact-link-secondary" href="https://github.com/rodzelte" target="_blank" rel="noreferrer">View GitHub <ArrowUpRight size={20} /></a>
         </div>
       </section>

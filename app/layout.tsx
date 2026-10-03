@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://portfolio-2026-v1-one.vercel.app'),
   title: 'Rodzel John Te — Virtual Assistant & Developer',
   description: 'Portfolio of Rodzel John Te, a Virtual Assistant and full-stack developer specializing in GoHighLevel automation and WordPress.',
   icons: {
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Rodzel John Te — Virtual Assistant & Developer',
     description: 'GoHighLevel automations, WordPress websites, and full-stack web apps, with real proof of work.',
     type: 'website',
-    images: [{ url: '/og.png', width: 1729, height: 910, alt: 'Rodzel John Te — Designer & Developer' }],
+    images: [{ url: '/og.png', width: 1729, height: 910, alt: 'Rodzel John Te — Virtual Assistant & Developer' }],
   },
   twitter: {
     card: 'summary_large_image',
