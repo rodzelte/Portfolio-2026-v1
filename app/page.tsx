@@ -296,14 +296,14 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-kicker"><span className="status-dot" /> Available for select projects</div>
-        <h1>I design and build<span>websites that feel right.</span></h1>
+        <div className="hero-kicker"><span className="status-dot" /> Available for VA &amp; automation roles</div>
+        <h1>I build websites<span>&amp; automations that work.</span></h1>
         <div className="hero-bottom">
-          <p>WordPress, Shopify, and Wix designer/developer creating expressive, conversion-aware digital experiences.</p>
+          <p>Virtual Assistant and full-stack developer specializing in GoHighLevel automation, WordPress, and custom web apps, from CRM workflows and pipelines to Discord bots and dashboards.</p>
           <a className="round-link" href="#work" aria-label="Explore selected work"><ArrowDownRight size={28} /></a>
         </div>
         <div className="hero-meta" aria-label="Experience overview">
-          <span>Based in the Philippines</span><span>1 year of experience</span><span>Design + development</span>
+          <span>Based in Davao City, Philippines</span><span>GoHighLevel · WordPress · Full-stack</span><span>BSIT, University of Mindanao</span>
         </div>
       </section>
 
